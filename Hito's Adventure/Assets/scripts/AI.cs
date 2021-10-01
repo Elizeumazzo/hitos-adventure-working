@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BrownFrog : MonoBehaviour
+public class AI : MonoBehaviour
 {
     public float speed;
     public float checkradius;
@@ -13,7 +13,7 @@ public class BrownFrog : MonoBehaviour
     public LayerMask WhatIsPlayer;
 
     private Transform target;
-    private Rigidbody2D Rb;
+    private Rigidbody2D rb;
     private Animator anim;
     Vector2 movement;
     public Vector3 direction;
@@ -24,46 +24,48 @@ public class BrownFrog : MonoBehaviour
 
     void Start()
     {
-        Rb.GetComponent<Rigidbody2D>();
-        anim.GetComponent<Animator>();
+        
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+
+        print(target);
+        
     }
 
     void Update()
     {
 
-        anim.SetBool("isrunning", isinchaserange);
+
 
         isinchaserange = Physics2D.OverlapCircle(transform.position, checkradius, WhatIsPlayer);
         isinattackrange = Physics2D.OverlapCircle(transform.position, attackradius, WhatIsPlayer);
 
         direction = target.position - transform.position;
+
+
+
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         direction.Normalize();
         movement = direction;
-        if(shouldrotate)
+        if (shouldrotate)
         {
             anim.SetFloat("x", direction.x);
             anim.SetFloat("y", direction.y);
         }
 
-
-    }
-
-
-    private void FixedUpdate()
-    {
-
-        if(isinchaserange && !isinattackrange)
+        if (isinchaserange && !isinattackrange)
         {
             MoveCharacter(movement);
         }
-        if(isinattackrange)
+
+        if (isinattackrange)
         {
-            Rb.velocity = Vector2.zero;
+            rb.velocity = Vector2.zero;
         }
 
-        Rb.MovePosition(Rb.position + movement * speed * Time.fixedDeltaTime);
+
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
 
         if (movement.x > 0)
         {
@@ -76,9 +78,12 @@ public class BrownFrog : MonoBehaviour
     }
 
 
+   
+
+
     private void MoveCharacter(Vector2 direction)
     {
-        Rb.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
+        rb.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
     }
 
 }

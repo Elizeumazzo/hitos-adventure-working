@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public ParticleSystem dust;
     Vector2 movement;
+    public GameObject camera;
 
      // Update is called once per frame
     void Update()
@@ -30,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         DoMove();
         if (Rb.velocity.y > 0.1 || Rb.velocity.x > 0.1)
         {
-            CreateDust();
+            //CreateDust();
         }
 
     }
@@ -69,17 +70,42 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        CreateDust();
+        //CreateDust();
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+
+        if (col.gameObject.tag == "door2")
+        {
+            print("hit door");
+            transform.position = transform.position + new Vector3(1, 7, 0);
+
+            camera.transform.position = new Vector3(0, 0, -10);
+        }
+
+
+
+
+
+        //print("player has hit " + col.gameObject.tag);
+        if( col.gameObject.tag == "door")
+        {
+            print("hit door");
+            transform.position = transform.position + new Vector3(0, -7, 0);
+
+            camera.transform.position = new Vector3(-5, -12, -10);
+        }
     }
 
 
 
 
 
-    void CreateDust()
+    /*void CreateDust()
     {
         dust.Play();
-    }
+    }*/
 
 
 
