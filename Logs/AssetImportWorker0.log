@@ -15,11 +15,11 @@ C:/Users/ERIKA/Documents/GitHub/hitos-adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55519
+63621
 Successfully changed project path to: C:/Users/ERIKA/Documents/GitHub/hitos-adventure
 C:/Users/ERIKA/Documents/GitHub/hitos-adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 346.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 543.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006857 seconds.
+Registered in 0.010028 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 353.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 418.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.231 seconds
+- Completed reload, in  7.291 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4232ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (7296ms)
+		BeginReloadAssembly (266ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1679ms)
-			LoadAssemblies (203ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (609ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2479ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (935ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (104ms)
-			SetupLoadedEditorAssemblies (814ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1161ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (353ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (419ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (527ms)
+				ProcessInitializeOnLoadMethodAttributes (183ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.022519 seconds.
+Registered in 0.043502 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ERIKA\Documents\GitHub\hitos-adventure\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ERIKA\Documents\GitHub\hitos-adventure\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 349.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 352.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.836 seconds
+- Completed reload, in  5.323 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4837ms)
-		BeginReloadAssembly (538ms)
+	ReloadAssembly (5325ms)
+		BeginReloadAssembly (617ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (4078ms)
-			LoadAssemblies (333ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (4467ms)
+			LoadAssemblies (374ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1352ms)
+			SetupTypeCache (1441ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (198ms)
-			SetupLoadedEditorAssemblies (1837ms)
+			RebuildScriptCaches (220ms)
+			SetupLoadedEditorAssemblies (2084ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (349ms)
-				BeforeProcessingInitializeOnLoad (295ms)
-				ProcessInitializeOnLoadAttributes (1099ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				RefreshPlugins (353ms)
+				BeforeProcessingInitializeOnLoad (303ms)
+				ProcessInitializeOnLoadAttributes (1328ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.3 MB.
+System memory in use before: 136.4 MB.
 System memory in use after: 136.6 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4128.
-Total: 14.672400 ms (FindLiveObjects: 1.589500 ms CreateObjectMapping: 0.723900 ms MarkObjects: 12.153600 ms  DeleteObjects: 0.198900 ms)
+Total: 13.908900 ms (FindLiveObjects: 1.590500 ms CreateObjectMapping: 0.840800 ms MarkObjects: 11.262900 ms  DeleteObjects: 0.209300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,6 +133,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657d64b05e0e47a7b724c1aa23124688') in 0.068184 seconds 
+  path: Assets/player/hito.png
+  artifactKey: Guid(ba993b7ee712abf4191f87f911538dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/hito.png using Guid(ba993b7ee712abf4191f87f911538dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c067eea0d7801ffaaa75015854667a98') in 0.556035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/player/jito sword draw.png
+  artifactKey: Guid(1425d9e4d958b44409cc18f6d92e16d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/jito sword draw.png using Guid(1425d9e4d958b44409cc18f6d92e16d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb60d5f2a2b2f05b5f53feff2cde686') in 0.073060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.806592 seconds.
+  path: Assets/player/Hito sword draw.png
+  artifactKey: Guid(1425d9e4d958b44409cc18f6d92e16d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Hito sword draw.png using Guid(1425d9e4d958b44409cc18f6d92e16d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb8c89fb4ddb0cf7284c0db4dc7065e') in 0.059742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.998555 seconds.
+  path: Assets/player/Hito sword draw.png
+  artifactKey: Guid(1425d9e4d958b44409cc18f6d92e16d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Hito sword draw.png using Guid(1425d9e4d958b44409cc18f6d92e16d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114320926526e4d401ae0047b9415d8a') in 0.039056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.360874 seconds.
+  path: Assets/player/Hito sword draw.png
+  artifactKey: Guid(1425d9e4d958b44409cc18f6d92e16d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Hito sword draw.png using Guid(1425d9e4d958b44409cc18f6d92e16d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bb02d2fb3fd7aa3507e333000a9c32') in 0.164594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 349.122040 seconds.
+  path: Assets/player/Pixilart Sprite Sheet (17).png
+  artifactKey: Guid(860047e98ba684942ae3940348fc890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Pixilart Sprite Sheet (17).png using Guid(860047e98ba684942ae3940348fc890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aff7476bca7a67c91c6472c2e355853') in 0.101931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.979877 seconds.
+  path: Assets/player/Hitos wsrod draw.png
+  artifactKey: Guid(860047e98ba684942ae3940348fc890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Hitos wsrod draw.png using Guid(860047e98ba684942ae3940348fc890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cefff83ba344e1ebe599b559f0e025e') in 0.056434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.820290 seconds.
+  path: Assets/player/Hitos wsrod draw.png
+  artifactKey: Guid(860047e98ba684942ae3940348fc890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Hitos wsrod draw.png using Guid(860047e98ba684942ae3940348fc890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1174bb5837f3997ebab760ac569029b') in 0.074271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.479298 seconds.
+  path: Assets/player/Hitos wsrod draw.png
+  artifactKey: Guid(860047e98ba684942ae3940348fc890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Hitos wsrod draw.png using Guid(860047e98ba684942ae3940348fc890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fe84f3bdf82bd6e42f2f0fcaa1dbd2') in 0.156604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 398.634227 seconds.
+  path: Assets/player/Pixilart Sprite Sheet (18).png
+  artifactKey: Guid(ec58703f0e220374c86a0dd1f5a72e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Pixilart Sprite Sheet (18).png using Guid(ec58703f0e220374c86a0dd1f5a72e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f827954d5665bc275cad4da3b0c869be') in 0.050837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.390039 seconds.
+  path: Assets/player/hito danger.png
+  artifactKey: Guid(ec58703f0e220374c86a0dd1f5a72e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/hito danger.png using Guid(ec58703f0e220374c86a0dd1f5a72e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8281dc9ee22fbe980313c4363d58ff') in 0.061159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.082349 seconds.
+  path: Assets/player/hito danger.png
+  artifactKey: Guid(ec58703f0e220374c86a0dd1f5a72e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/hito danger.png using Guid(ec58703f0e220374c86a0dd1f5a72e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e2a3db9798dc21fd60fa00a8a745ad') in 0.037548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.328083 seconds.
+  path: Assets/player/hito danger.png
+  artifactKey: Guid(ec58703f0e220374c86a0dd1f5a72e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/hito danger.png using Guid(ec58703f0e220374c86a0dd1f5a72e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869564590a29f0d3656fbc6008fad6d8') in 0.061102 seconds 
